@@ -11,10 +11,9 @@ void loop(){
         int i;
         i = 0;
         if (k>10){
-            for (;i<=k;k++){
+            for (;i<=k;k-=10){
                 delay(10000);
-                k=k-11;
-                Serial.println(k+1);
+                Serial.println(k);
             }
         }
 
